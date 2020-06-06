@@ -1,0 +1,5 @@
+function numfreeze=freezing(v)
+    F=32*ones(1,length(v));
+    L=v<F;
+    numfreeze=length(F(L));
+end
