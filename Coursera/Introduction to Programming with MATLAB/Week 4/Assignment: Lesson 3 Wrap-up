@@ -1,0 +1,5 @@
+function f=taxi_fare (d,t)
+dis=ceil(d);
+tm=ceil(t);
+f=5+((dis-1)*2)+(0.25*tm);
+end
