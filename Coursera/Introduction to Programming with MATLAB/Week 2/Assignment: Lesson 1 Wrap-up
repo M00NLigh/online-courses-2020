@@ -1,0 +1,10 @@
+d_meter=100;
+t_second=9.58;
+speed_meter_sec=d_meter/t_second;
+speed_km_hours=speed_meter_sec*3.6;
+hundred=speed_km_hours
+d_marathon_km=42.195;
+t_marathon_sec=(2*3600)+60+39;
+t_marathon_hours=t_marathon_sec/3600;
+speed_marathon_km_hours=d_marathon_km/t_marathon_hours;
+marathon=speed_marathon_km_hours
