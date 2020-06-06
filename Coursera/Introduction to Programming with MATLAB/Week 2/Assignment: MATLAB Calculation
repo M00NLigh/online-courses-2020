@@ -1,0 +1,6 @@
+x=1000;
+annual_interest=x*10/100;
+debt_first_year=x+annual_interest;
+interest_second_year=debt_first_year*10/100;
+debt=debt_first_year+interest_second_year;
+debt
