@@ -1,0 +1,5 @@
+function [mmr mmm]= minimax(M)
+M_t=M';
+mmr=(max(M_t)-min(M_t));
+mmm=(max(M,[],'all')-min(M,[],'all'));
+end
