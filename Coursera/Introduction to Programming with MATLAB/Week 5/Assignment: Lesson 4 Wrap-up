@@ -1,0 +1,6 @@
+function T=trio(n,m)
+    A=ones(n,m);
+    B=1+ones(n,m);
+    C=2+ones(n,m);
+    T=[A;B;C];
+end
