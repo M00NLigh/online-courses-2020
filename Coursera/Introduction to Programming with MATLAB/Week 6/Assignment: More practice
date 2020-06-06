@@ -1,0 +1,14 @@
+function admit= eligible(v,q)
+   a=v>88;
+   b=q>88;
+   if (and(a,b)==true)
+       moy=(v+q)/2;
+   else
+       admit=false
+       return
+   end
+   if(moy>=92)
+       admit=true;
+   else admit=false;
+   end
+   end
