@@ -1,0 +1,9 @@
+function [summa,index]=max_sum(v,n)
+    
+    if (n>length (v))
+        summa=0;
+        index=-1;
+    else
+       w=movsum(v,n,'Endpoints','discard');
+       [summa index]=max(w);
+end
